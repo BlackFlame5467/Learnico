@@ -1,0 +1,62 @@
+.header {
+	background: $bg-main;
+	&__inner {
+		@apply flex justify-between items-center;
+		padding: 50px 0 80px 0;
+	}
+	&__content {
+		max-width: 600px;
+	}
+	&__title {
+		font-family: $ff-accent;
+		font-size: 56px;
+		line-height: 67px; /* 56/67.2 */
+		color: $color-main;
+		margin: 0 0 30px 0;
+	}
+	&__text {
+		color: $color-main;
+		line-height: 27px;
+		margin: 0 0 40px 0;
+	}
+	&__btns {
+		@apply flex gap-4 items-center mb-12;
+	}
+	&__btn {
+		background: $bg-green;
+		border: 1px solid $bg-green;
+		color: $color-main;
+	}
+	&__video {
+		@apply flex gap-2 items-center;
+		color: $color-main;
+	}
+	&__review {
+		@apply flex gap-4 items-center;
+
+		&-stars {
+			@apply flex gap-1 items-center;
+		}
+		&-text {
+			color: $color-main;
+		}
+	}
+	&__img {
+		position: relative;
+		img {
+			border-radius: 24px;
+		}
+
+		&::before {
+			content: url(../../img/header/header-before.svg);
+			position: absolute;
+			bottom: 78px;
+			left: -105px;
+		}
+	}
+	&__subtext {
+		text-align: center;
+		color: $color-main;
+		padding: 0 0 380px 0;
+	}
+}

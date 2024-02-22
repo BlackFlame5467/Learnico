@@ -1,0 +1,42 @@
+.nav {
+	padding: 11px 0;
+	&__inner {
+		@apply flex justify-between;
+		max-width: 870px;
+		padding: 0 15px;
+		margin-left: auto;
+	}
+	&__list {
+		@apply flex gap-6 items-center;
+	}
+	&__link {
+		color: $color-main;
+
+		&::after {
+			content: "";
+			@apply block;
+			width: 0%;
+			height: 2px;
+			background: $bg-white;
+			transition: width 0.2s ease-in;
+		}
+		&:hover::after {
+			width: 100%;
+		}
+	}
+	&__users {
+		@apply flex gap-6 items-center;
+		color: $color-main;
+	}
+	&__search {
+		@apply flex gap-2 items-center;
+	}
+	&__cart {
+		@apply flex gap-2 items-center;
+	}
+	&__login {
+		border: 1px solid $bg-white;
+		background: $bg-white;
+		color: $color-accent;
+	}
+}
