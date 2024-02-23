@@ -7,6 +7,8 @@ import Course from "./components/Course/Course"
 import Trand from "./components/Trand/Trand"
 import Join from "./components/Join/Join"
 import Benefit from "./components/Benefit/Benefit"
+import Review from "./components/Review/Review"
+import Blog from "./components/Blog/Blog"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
@@ -29,6 +31,8 @@ root.render(
 			<Trand />
 			<Join />
 			<Benefit />
+			<Review />
+			<Blog />
 		</main>
 	</React.StrictMode>
 )

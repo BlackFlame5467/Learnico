@@ -1,0 +1,26 @@
+.reviews {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 1580px;
+	&__inner {
+		padding: 100px 20px;
+		background: $bg-accent;
+		text-align: center;
+		border-radius: 24px;
+	}
+	&__header {
+		max-width: 730px;
+		margin: 0 auto 80px;
+	}
+	&__suptitle {
+		margin: 0 0 11px 0;
+	}
+
+	&__title {
+		margin: 0 0 30px 0;
+	}
+
+	&__text {
+	}
+}

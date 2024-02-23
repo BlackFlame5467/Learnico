@@ -1,0 +1,42 @@
+.review {
+	padding: 32px 35px 35px 32px;
+	background: $bg-white;
+	border-radius: 16px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 330px;
+	&__stars {
+		display: flex;
+		gap: 4px;
+		margin: 0 0 25px 0;
+	}
+	&__text {
+		font-size: 17px;
+		line-height: 27px;
+		color: $color-accent;
+	}
+
+	&__author {
+		display: flex;
+		gap: 20px;
+		align-items: center;
+	}
+
+	&__author-info {
+	}
+
+	&__author-name {
+		font-size: 16px;
+		line-height: 24px;
+		color: $color-links;
+		font-weight: 600;
+	}
+
+	&__author-post {
+		font-size: 16px;
+		line-height: 24px;
+		color: $color-gray;
+	}
+}
