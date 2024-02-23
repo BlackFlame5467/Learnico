@@ -1,0 +1,58 @@
+.course {
+	padding: 380px 0 130px 0;
+
+	&:last-child {
+		padding: 0 0 130px 0;
+	}
+	&__inner {
+		display: flex;
+		gap: 130px;
+		align-items: center;
+	}
+
+	&__img {
+		border-radius: 24px;
+	}
+
+	&__content {
+	}
+
+	&__title {
+		margin: 0 0 30px 0;
+	}
+
+	&__text {
+		margin: 0 0 40px 0;
+	}
+
+	&__btns {
+		display: flex;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__btn {
+		background: $bg-dark;
+		color: $color-main;
+		border: 1px solid $bg-dark;
+		&:hover {
+			color: $color-accent;
+		}
+	}
+
+	&__link {
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		transition: gap 0.3s ease-in;
+		&:hover {
+			gap: 16px;
+		}
+	}
+}
+.course--2 {
+	padding: 0 0 130px 0;
+}
+.course__inner--2 {
+	flex-direction: row-reverse;
+}
