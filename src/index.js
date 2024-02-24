@@ -9,6 +9,8 @@ import Join from "./components/Join/Join"
 import Benefit from "./components/Benefit/Benefit"
 import Review from "./components/Review/Review"
 import Blog from "./components/Blog/Blog"
+import Start from "./components/Start/Start"
+import Footer from "./components/Footer/Footer"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
@@ -33,6 +35,8 @@ root.render(
 			<Benefit />
 			<Review />
 			<Blog />
+			<Start />
 		</main>
+		<Footer />
 	</React.StrictMode>
 )

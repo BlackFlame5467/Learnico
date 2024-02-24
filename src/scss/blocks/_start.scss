@@ -1,0 +1,37 @@
+.start {
+	background: $bg-main;
+	text-align: center;
+	padding: 130px 0 80px 0;
+	&__inner {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		color: $color-main;
+		margin: 0 0 30px 0;
+	}
+
+	&__text {
+		color: $color-main;
+		margin: 0 0 40px 0;
+	}
+
+	&__btns {
+		display: flex;
+        justify-content: center;
+		gap: 16px;
+	}
+
+	&__get-started {
+		background: $bg-green;
+		color: $color-main;
+		border: 1px solid $bg-green;
+	}
+
+	&__contact {
+		background: $bg-white;
+		color: $color-accent;
+		border: 1px solid $bg-white;
+	}
+}
