@@ -53,7 +53,7 @@ const Nav = () => {
 					</div>
 				</div>
 			</nav>
-			<div className="burger">
+			{/* <div className="burger">
 				<nav className="burger__menu">
 					<ul className="burger__list">
 						{navList.map(item => (
@@ -65,7 +65,7 @@ const Nav = () => {
 						))}
 					</ul>
 				</nav>
-			</div>
+			</div> */}
 		</>
 	)
 }
