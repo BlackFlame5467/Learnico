@@ -12,7 +12,7 @@ const Header = () => {
 		<header className="header">
 			<div className="container">
 				<Nav />
-				{/* <div className="header__inner">
+				<div className="header__inner">
 					<div className="header__content">
 						<h1 className="header__title">
 							Become an No-Code expert and find a job
@@ -46,7 +46,7 @@ const Header = () => {
 						<img src={header} alt="" />
 					</div>
 				</div>
-				<p className="header__subtext">Trusted by the world's best companies</p> */}
+				<p className="header__subtext">Trusted by the world's best companies</p>
 			</div>
 		</header>
 	)
