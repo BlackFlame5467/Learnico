@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Learnico/static/css/main.46a7160b.css",
-    "main.js": "/Learnico/static/js/main.ee8ca35d.js",
+    "main.js": "/Learnico/static/js/main.03be8af3.js",
     "static/media/header.png": "/Learnico/static/media/header.d8a01fc18a2a0ae4c875.png",
     "static/media/benefit-img.jpg": "/Learnico/static/media/benefit-img.9a27c09d8f1dfcb4dfe6.jpg",
     "static/media/join-img.jpg": "/Learnico/static/media/join-img.4ff9c8662c070d17ef56.jpg",
@@ -33,10 +33,10 @@
     "static/media/icon-3.svg": "/Learnico/static/media/icon-3.f4ad5e69abe3f7efeb6177462934320e.svg",
     "static/media/arrow-right.svg": "/Learnico/static/media/arrow-right.b55866d89e2c21fb9084ce6e193ded6f.svg",
     "main.46a7160b.css.map": "/Learnico/static/css/main.46a7160b.css.map",
-    "main.ee8ca35d.js.map": "/Learnico/static/js/main.ee8ca35d.js.map"
+    "main.03be8af3.js.map": "/Learnico/static/js/main.03be8af3.js.map"
   },
   "entrypoints": [
     "static/css/main.46a7160b.css",
-    "static/js/main.ee8ca35d.js"
+    "static/js/main.03be8af3.js"
   ]
 }
