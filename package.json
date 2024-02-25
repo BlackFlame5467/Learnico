@@ -2,7 +2,7 @@
 	"name": "learnico",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https:BlackFlame5467.github.io/Learnico",
+	"homepage": "https://BlackFlame5467.github.io/Learnico",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.17.0",
 		"@testing-library/react": "^13.4.0",
