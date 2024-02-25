@@ -71,6 +71,7 @@ const Benefit = () => {
 				</div>
 				<button className="benefit__btn btn">Get Started</button>
 			</div>
+			<div></div>
 		</section>
 	)
 }
