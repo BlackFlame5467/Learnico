@@ -28,9 +28,9 @@ const Nav = () => {
 		<>
 			<nav className="nav">
 				<div className="nav__inner">
-					<button className="burger__btn">
+					{/* <button className="burger__btn">
 						<img src={menu} alt="" />
-					</button>
+					</button> */}
 					<ul className="nav__list">
 						{navList.map(item => (
 							<li>
