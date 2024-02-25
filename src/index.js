@@ -16,7 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
 	<React.StrictMode>
 		<Header />
-		<main className="main">
+		{/* <main className="main">
 			<About />
 			<Course
 				img={require("./img/course/course-img.jpg")}
@@ -37,6 +37,6 @@ root.render(
 			<Blog />
 			<Start />
 		</main>
-		<Footer />
+		<Footer /> */}
 	</React.StrictMode>
 )

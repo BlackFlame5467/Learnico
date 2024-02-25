@@ -1,7 +1,7 @@
 .nav {
 	padding: 11px 0;
 	&__inner {
-		@apply flex justify-between;
+		@apply flex justify-between items-center;
 		max-width: 870px;
 		padding: 0 15px;
 		margin-left: auto;

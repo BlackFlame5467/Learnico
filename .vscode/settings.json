@@ -1,0 +1,9 @@
+{
+	"ecsstractor_port.attributes": "class",
+	"ecsstractor_port.add_comment": true,
+	"ecsstractor_port.bem_nesting": true,
+	"ecsstractor_port.brackets_newline_after": true,
+	"ecsstractor_port.destination": "clipboard",
+	"ecsstractor_tsx_port.bem_nesting": true,
+	"ecsstractor_tsx_port.attributes": "className"
+}
