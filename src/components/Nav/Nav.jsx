@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import "./../../scss/main.scss"
 
 import search from "./../../img/nav/search.svg"
 import cart from "./../../img/nav/cart.svg"
-import menu from "./../../img/nav/menu.svg"
+import menuOpen from "./../../img/nav/menu.svg"
+import menuClose from "./../../img/nav/menu-close.svg"
+import Burger from "./Burger/Burger"
 
 const navList = [
 	{
@@ -24,13 +26,18 @@ const navList = [
 ]
 
 const Nav = () => {
+	const [menuActive, setMenuActive] = useState(false)
+
 	return (
 		<>
 			<nav className="nav">
 				<div className="nav__inner">
-					{/* <button className="burger__btn">
-						<img src={menu} alt="" />
-					</button> */}
+					<button
+						className="burger__btn"
+						onClick={() => setMenuActive(!menuActive)}
+					>
+						<img src={menuActive ? menuClose : menuOpen} alt="" />
+					</button>
 					<ul className="nav__list">
 						{navList.map(item => (
 							<li>
@@ -53,19 +60,7 @@ const Nav = () => {
 					</div>
 				</div>
 			</nav>
-			{/* <div className="burger">
-				<nav className="burger__menu">
-					<ul className="burger__list">
-						{navList.map(item => (
-							<li>
-								<a href="#" className="burger__link">
-									{item.title}
-								</a>
-							</li>
-						))}
-					</ul>
-				</nav>
-			</div> */}
+			<Burger active={menuActive} setActive={setMenuActive} />
 		</>
 	)
 }

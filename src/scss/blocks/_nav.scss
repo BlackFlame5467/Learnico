@@ -40,3 +40,16 @@
 		color: $color-accent;
 	}
 }
+@media (max-width: 768px) {
+	.nav__list {
+		display: none;
+	}
+}
+@media (max-width: 450px) {
+	.nav__search,
+	.nav__cart {
+		width: 15px;
+		height: 15px;
+		overflow: hidden;
+	}
+}

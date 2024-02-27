@@ -4,7 +4,7 @@
 	left: 0;
 	right: 0;
 	&__inner {
-		padding: 64px 0;
+		padding: 64px 10px;
 		background: $bg-accent;
 		border-radius: 24px;
 		text-align: center;
@@ -32,6 +32,8 @@
 		background: $bg-dark;
 		color: $color-main;
 		border: 1px solid $bg-dark;
+		padding: 12px 40px;
+		font-size: 18px;
 		&:hover {
 			color: $bg-dark;
 		}
