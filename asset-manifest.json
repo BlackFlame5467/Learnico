@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Learnico/static/css/main.46a7160b.css",
-    "main.js": "/Learnico/static/js/main.cc9be097.js",
+    "main.css": "/Learnico/static/css/main.e8ac3e55.css",
+    "main.js": "/Learnico/static/js/main.309d9f3c.js",
     "static/media/header.png": "/Learnico/static/media/header.d8a01fc18a2a0ae4c875.png",
     "static/media/benefit-img.jpg": "/Learnico/static/media/benefit-img.9a27c09d8f1dfcb4dfe6.jpg",
     "static/media/join-img.jpg": "/Learnico/static/media/join-img.4ff9c8662c070d17ef56.jpg",
@@ -26,17 +26,18 @@
     "static/media/star.svg": "/Learnico/static/media/star.02b4196d143c89111473e62b046510df.svg",
     "static/media/footer-1.svg": "/Learnico/static/media/footer-1.bd8f80d5584e8811e55f8beb55ed6930.svg",
     "static/media/icon-7.svg": "/Learnico/static/media/icon-7.8486a862bc8d34b7471124975e83e917.svg",
+    "static/media/menu-close.svg": "/Learnico/static/media/menu-close.25099d12377b3965506abc908212a47f.svg",
     "static/media/menu.svg": "/Learnico/static/media/menu.176e5ab862919a86a01f4517dcd429c5.svg",
     "index.html": "/Learnico/index.html",
     "static/media/play.svg": "/Learnico/static/media/play.49a65379580347fc7e4713eacebc0e3d.svg",
     "static/media/icon-2.svg": "/Learnico/static/media/icon-2.531f49904867d80a483e52b434f5a5c2.svg",
     "static/media/icon-3.svg": "/Learnico/static/media/icon-3.f4ad5e69abe3f7efeb6177462934320e.svg",
     "static/media/arrow-right.svg": "/Learnico/static/media/arrow-right.b55866d89e2c21fb9084ce6e193ded6f.svg",
-    "main.46a7160b.css.map": "/Learnico/static/css/main.46a7160b.css.map",
-    "main.cc9be097.js.map": "/Learnico/static/js/main.cc9be097.js.map"
+    "main.e8ac3e55.css.map": "/Learnico/static/css/main.e8ac3e55.css.map",
+    "main.309d9f3c.js.map": "/Learnico/static/js/main.309d9f3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.46a7160b.css",
-    "static/js/main.cc9be097.js"
+    "static/css/main.e8ac3e55.css",
+    "static/js/main.309d9f3c.js"
   ]
 }
