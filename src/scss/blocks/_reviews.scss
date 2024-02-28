@@ -1,9 +1,9 @@
 .reviews {
 	position: relative;
+	top: 400px;
 	&__inner {
-		max-width: 1280px;
-		position: absolute;
-		top: -400px;
+		// max-width: 1280px;
+		// position: absolute;
 		padding: 100px 20px;
 		background: $bg-accent;
 		text-align: center;

@@ -7,6 +7,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	height: 330px;
+	width: 400px;
 	&__stars {
 		display: flex;
 		gap: 4px;
@@ -39,4 +40,16 @@
 		line-height: 24px;
 		color: $color-gray;
 	}
+}
+@media (max-width: 900px) {
+	.review {
+		margin: 0 auto;
+		justify-content: center;
+	}
+}
+@media (max-width: 480px) {
+	.review {
+		width: 280px;
+	}
+
 }

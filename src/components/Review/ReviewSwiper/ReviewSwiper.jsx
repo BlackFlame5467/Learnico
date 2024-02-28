@@ -10,7 +10,26 @@ import ReviewItem from "../ReviewItem/ReviewItem"
 
 const ReviewSwiper = () => {
 	return (
-		<Swiper spaceBetween={50} slidesPerView={3} freeMode={true} modules={[FreeMode]}>
+		<Swiper
+		spaceBetween={50}
+		slidesPerView={3}
+		freeMode={true}
+		modules={[FreeMode]}
+		breakpoints={{
+			360: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			},
+			900: {
+				slidesPerView: 2,
+				spaceBetween: 20,
+			},
+			1240: {
+				slidesPerView: 3,
+				spaceBetween: 50,
+			}
+		}}>
+		<div className="review__inner">
 			<SwiperSlide>
 				<ReviewItem
 					reviewText={
@@ -91,6 +110,7 @@ const ReviewSwiper = () => {
 					reviewAuthorPost={"Design System Manager, @Company"}
 				/>
 			</SwiperSlide>
+		</div>
 		</Swiper>
 	)
 }
