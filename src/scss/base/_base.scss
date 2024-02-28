@@ -1,3 +1,4 @@
+
 body {
 	color: $color-text-second;
 	font-size: 18px;
@@ -37,6 +38,53 @@ body {
 .title {
 	font-size: clamp(1.25rem, 0.667rem + 2.59vw, 3rem);
 	line-height: clamp(1.25rem, 0.386rem + 4.32vw, 3.625rem);
+	color: $color-accent;
+	font-family: $ff-accent;
+}
+.text {
+	font-size: clamp(1rem, 0.958rem + 0.19vw, 1.125rem);
+	line-height: clamp(1.25rem, 1.104rem + 0.65vw, 1.688rem);
+	color: $color-text-main;
+}
+body {
+	color: $color-text-second;
+	font-size: 18px;
+	font-family: $ff-main;
+}
+.main {
+	position: relative;
+}
+.container {
+	max-width: 1310px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.btn {
+	padding: clamp(0.375rem, 0.229rem + 0.65vw, 0.813rem)
+		clamp(0.625rem, 0.313rem + 1.39vw, 1.563rem);
+	border-radius: 8px;
+	transition: all 0.3s ease-in;
+	// font-size: 18px;
+	font-size: clamp(0.75rem, 0.625rem + 0.56vw, 1.125rem);
+
+	&:hover {
+		background: transparent;
+		color: $color-main;
+	}
+}
+.suptitle {
+	font-size: 14px;
+	line-height: 21px;
+	color: $color-accent;
+	padding: 4px 8px;
+	background: $bg-white;
+	border-radius: 4px;
+	display: inline-block;
+	font-family: $ff-accent;
+}
+.title {
+	font-size: clamp(1.25rem, 0.667rem + 2.59vw, 3rem);
+	line-height: clamp(0.625rem, -0.375rem + 4.44vw, 3.625rem);
 	color: $color-accent;
 	font-family: $ff-accent;
 }
