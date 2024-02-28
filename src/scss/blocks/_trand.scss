@@ -19,6 +19,14 @@
 
 	&__inner {
 		display: flex;
-		gap: 32px;
+		// gap: 20px;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 1250px) {
+	.trand__inner {
+		gap: 20px;
+		justify-content: center;
 	}
 }

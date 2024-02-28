@@ -1,7 +1,7 @@
 .nav {
 	padding: 11px 0;
 	&__inner {
-		@apply flex justify-between;
+		@apply flex justify-between items-center;
 		max-width: 870px;
 		padding: 0 15px;
 		margin-left: auto;
@@ -38,5 +38,18 @@
 		border: 1px solid $bg-white;
 		background: $bg-white;
 		color: $color-accent;
+	}
+}
+@media (max-width: 768px) {
+	.nav__list {
+		display: none;
+	}
+}
+@media (max-width: 450px) {
+	.nav__search,
+	.nav__cart {
+		width: 15px;
+		height: 15px;
+		overflow: hidden;
 	}
 }

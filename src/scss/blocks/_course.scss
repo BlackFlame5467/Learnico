@@ -6,8 +6,10 @@
 	}
 	&__inner {
 		display: flex;
-		gap: 130px;
+		gap: 20px;
+		justify-content: space-between;
 		align-items: center;
+		flex-wrap: wrap;
 	}
 
 	&__img {
@@ -15,6 +17,7 @@
 	}
 
 	&__content {
+		max-width: 550px;
 	}
 
 	&__title {
@@ -45,6 +48,7 @@
 		align-items: center;
 		gap: 8px;
 		transition: gap 0.3s ease-in;
+		font-size: clamp(0.75rem, 0.625rem + 0.56vw, 1.125rem);
 		&:hover {
 			gap: 16px;
 		}
@@ -55,4 +59,12 @@
 }
 .course__inner--2 {
 	flex-direction: row-reverse;
+}
+@media (max-width: 1180px) {
+	.course__inner {
+		justify-content: center;
+	}
+	.course__btns {
+		justify-content: center;
+	}
 }

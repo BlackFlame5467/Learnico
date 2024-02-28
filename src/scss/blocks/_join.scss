@@ -2,14 +2,16 @@
 	padding: 0 0 190px 0;
 	&__inner {
 		display: flex;
+		justify-content: space-between;
 	}
 
 	&__content {
-		padding: 64px 100px 64px 64px;
+		padding: clamp(0.938rem, -1.765rem + 12.01vw, 4rem);
 		background: $bg-accent;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		gap: 20px;
 		border-radius: 24px 0 0 24px;
 	}
 
@@ -34,8 +36,8 @@
 	}
 	&__list {
 		display: flex;
-		gap: 50px;
 		padding: 80px 0 0 0;
+		justify-content: space-between;
 	}
 
 	&__item {
@@ -63,5 +65,26 @@
 			color: $color-text-main;
 			max-width: 370px;
 		}
+	}
+	&__img {
+		width: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.join__inner {
+		flex-direction: column-reverse;
+	}
+	.join__content {
+		text-align: center;
+		border-radius: 0 0 24px 24px;
+	}
+	.join__img {
+		width: 100%;
+	}
+	.join__list {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 20px;
 	}
 }

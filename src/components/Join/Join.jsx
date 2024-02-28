@@ -27,7 +27,7 @@ const Join = () => {
 							<button className="join__btn btn">Get started</button>
 						</div>
 					</div>
-					<img src={joinImg} alt="" />
+					<img src={joinImg} alt="" className="join__img"/>
 				</div>
 				<div className="join__list">
 					<Item

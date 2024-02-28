@@ -1,4 +1,5 @@
 .item {
+	max-width: 378px;
 	&__icon {
 		width: 48px;
 		height: 48px;
@@ -33,5 +34,10 @@
 	}
 	&__item-title {
 		margin: 24px 0 15px 0;
+	}
+}
+@media (max-width: 768px) {
+	.item__icon {
+		margin: 0 auto;
 	}
 }

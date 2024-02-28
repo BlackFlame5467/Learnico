@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	border-radius: 16px;
 	height: 500px;
-	width: 40%;
+	width: 405px;
 	background-repeat: no-repeat;
 	background-position: 200px 230px;
 	&__content {
@@ -39,5 +39,22 @@
 		color: $color-main;
 		border: 1px solid $bg-green;
 		padding: 9px 21px;
+	}
+}
+@media (max-width: 1250px) {
+	.card {
+		width: 50%;
+		background-position: calc(560px * 100% / 405px) calc(680px * 100% / 500px);
+	}
+}
+@media (max-width: 768px) {
+	.card {
+		width: 100%;
+		background-position: calc(900px * 100% / 700px) calc(680px * 100% / 500px);
+	}
+}
+@media (max-width: 450px) {
+	.card {
+		background-position: calc(850px * 100% / 420px) calc(680px * 100% / 500px);
 	}
 }
