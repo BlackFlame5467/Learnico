@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import "./../../scss/main.scss"
 import Nav from "../Nav/Nav"
 
@@ -7,11 +7,20 @@ import review from "./../../img/header/review.jpg"
 import star from "./../../img/header/star.svg"
 import header from "./../../img/header/header.png"
 
+
 const Header = () => {
+	const [menuActive, setMenuActive] = useState(false);
+
+	if(menuActive) {
+		document.body.classList.add("overflow");
+	}
+	else {
+		document.body.classList.remove("overflow");
+	}
 	return (
-		<header className="header">
+		<header className={menuActive ? "header overflow": "header"}>
 			<div className="container">
-				<Nav />
+				<Nav menuActive={menuActive} setMenuActive={setMenuActive} />
 				<div className="header__inner">
 					<div className="header__content">
 						<h1 className="header__title">

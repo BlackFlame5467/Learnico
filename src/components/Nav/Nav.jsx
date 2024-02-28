@@ -26,8 +26,7 @@ const navList = [
 	},
 ]
 
-const Nav = () => {
-	const [menuActive, setMenuActive] = useState(false)
+const Nav = ({menuActive, setMenuActive}) => {
 
 	return (
 		<>

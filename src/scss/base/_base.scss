@@ -93,3 +93,6 @@ body {
 	line-height: clamp(1.25rem, 1.104rem + 0.65vw, 1.688rem);
 	color: $color-text-main;
 }
+.overflow {
+	overflow: hidden;
+}
