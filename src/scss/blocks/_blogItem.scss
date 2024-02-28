@@ -1,6 +1,7 @@
 .blog__item {
 	background: $bg-white;
-	max-width: 405px;
+	width: 405px;
+	padding: 0 0 15px 0;
 	&-inner {
 		height: 305px;
 		padding: 24px 34px 32px 24px;
@@ -20,11 +21,14 @@
 	}
 
 	&-title {
-		font-size: 24px;
+		// font-size: 24px;
+		font-size: clamp(0.938rem, 0.75rem + 0.83vw, 1.5rem);
 		font-family: $ff-accent;
-		line-height: 34px;
+		// line-height: 34px;
+		line-height: clamp(1.5rem, 1.292rem + 0.93vw, 2.125rem);
 		color: $color-accent;
 		margin: 0 0 7px 0;
+		font-weight: 500;
 	}
 
 	&-text {
@@ -37,8 +41,14 @@
 		display: flex;
 		gap: 8px;
 		transition: gap 0.3s ease-in;
+		font-size: clamp(0.75rem, 0.625rem + 0.56vw, 1.125rem);
 		&:hover {
 			gap: 16px;
 		}
+	}
+}
+@media (max-width: 440px) {
+	.blog__item {
+		width: 300px;
 	}
 }

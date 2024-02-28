@@ -24,5 +24,14 @@
 	&__list {
 		display: flex;
 		gap: 32px;
+		justify-content: space-between;
+
 	}
 }
+@media (max-width: 1245px) {
+	.blog__list {
+		flex-direction: column;
+		align-items: center;
+	}
+} 
+	
